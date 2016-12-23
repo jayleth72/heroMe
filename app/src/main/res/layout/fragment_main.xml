@@ -13,24 +13,6 @@
         android:orientation="vertical">
 
 
-
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:minHeight="?attr/actionBarSize"
-            android:background="#253748"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/top_banner_bar"
-                android:layout_weight="0.88" />
-
-        </android.support.v7.widget.Toolbar>
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,7 +22,7 @@
 
         <Button
             android:text="came by accident"
-            android:id="@+id/button1"
+            android:id="@+id/accidentBtn"
             android:freezesText="true"
             android:layout_width="300dp"
             android:layout_gravity="center_horizontal"
@@ -48,14 +30,13 @@
             android:textColor="#ffd200"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/lightning_icon"
-            android:drawableRight="@drawable/item_selected"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:layout_height="55dp" />
 
         <Button
             android:text="genetic mutation"
-            android:id="@+id/button2"
+            android:id="@+id/geneticBtn"
             android:freezesText="true"
             android:layout_width="300dp"
             android:layout_gravity="center_horizontal"
@@ -64,13 +45,12 @@
             android:textColor="#ffd200"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/atomic_icon"
-            android:drawableRight="@drawable/item_selected"
             android:paddingLeft="10dp"
             android:paddingRight="10dp" />
 
         <Button
             android:text="Born with them"
-            android:id="@+id/button3"
+            android:id="@+id/bornBtn"
             android:freezesText="true"
             android:layout_width="300dp"
             android:layout_gravity="center_horizontal"
@@ -79,13 +59,12 @@
             android:textColor="#ffd200"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/rocket_icon"
-            android:drawableRight="@drawable/item_selected"
             android:paddingLeft="10dp"
             android:paddingRight="10dp" />
 
         <Button
             android:text="choose powers"
-            android:id="@+id/button4"
+            android:id="@+id/chooseBtn"
             android:freezesText="true"
             android:layout_width="300dp"
             android:layout_gravity="center_horizontal"
